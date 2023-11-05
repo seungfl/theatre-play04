@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>씨어트리호</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-box" onclick="assignOrder(this)">
+        <img src="image1.jpg">
+        <div class="overlay"></div>
+        <div class="overlay-text"></div>
+      </div>
+      <div class="image-box" onclick="assignOrder(this)">
+        <img src="image2.jpg">
+        <div class="overlay"></div>
+        <div class="overlay-text"></div>
+      </div>
+      <div class="image-box" onclick="assignOrder(this)">
+        <img src="image3.jpg">
+        <div class="overlay"></div>
+        <div class="overlay-text"></div>
+      </div>
+      <div class="image-box" onclick="assignOrder(this)">
+        <img src="image4.jpg">
+        <div class="overlay"></div>
+        <div class="overlay-text"></div>
+      </div>
+    </div>
+    <div class="button-box">
+      <button id="reset-button" onclick="reset()">다시 하기</button>
+      <button id="submit-button" onclick="submit()">제출하기</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
